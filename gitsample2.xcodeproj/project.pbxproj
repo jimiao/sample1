@@ -14,6 +14,7 @@
 		EB782A7B1B2FE6E900DF09BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB782A7A1B2FE6E900DF09BD /* Images.xcassets */; };
 		EB782A7E1B2FE6E900DF09BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB782A7C1B2FE6E900DF09BD /* LaunchScreen.xib */; };
 		EB782A8A1B2FE6E900DF09BD /* gitsample2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB782A891B2FE6E900DF09BD /* gitsample2Tests.m */; };
+		EB782A951B2FE86D00DF09BD /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB782A941B2FE86D00DF09BD /* newViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EB782A831B2FE6E900DF09BD /* gitsample2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitsample2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB782A881B2FE6E900DF09BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB782A891B2FE6E900DF09BD /* gitsample2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitsample2Tests.m; sourceTree = "<group>"; };
+		EB782A931B2FE86D00DF09BD /* newViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newViewController.h; path = ../newViewController.h; sourceTree = "<group>"; };
+		EB782A941B2FE86D00DF09BD /* newViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newViewController.m; path = ../newViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				EB782A711B2FE6E800DF09BD /* AppDelegate.h */,
+				EB782A931B2FE86D00DF09BD /* newViewController.h */,
+				EB782A941B2FE86D00DF09BD /* newViewController.m */,
 				EB782A721B2FE6E800DF09BD /* AppDelegate.m */,
 				EB782A741B2FE6E900DF09BD /* ViewController.h */,
 				EB782A751B2FE6E900DF09BD /* ViewController.m */,
@@ -222,6 +227,7 @@
 				EB782A761B2FE6E900DF09BD /* ViewController.m in Sources */,
 				EB782A731B2FE6E800DF09BD /* AppDelegate.m in Sources */,
 				EB782A701B2FE6E800DF09BD /* main.m in Sources */,
+				EB782A951B2FE86D00DF09BD /* newViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
